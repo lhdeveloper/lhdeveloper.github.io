@@ -7273,7 +7273,7 @@ main section {
     font-weight: 500;
     position: relative; }
     main section h3:before {
-      content: '';
+      content: "";
       width: 4em;
       height: 3px;
       background: #f3f3f3;
@@ -7308,6 +7308,16 @@ main section {
       z-index: 200;
       width: 100%;
       transform: translate(-50%, -50%); }
+  main section#about-me .socials {
+    justify-content: center;
+    padding: 0px; }
+    main section#about-me .socials li {
+      font-size: 2em;
+      border: 1px solid #ccc;
+      margin: 0.35em;
+      padding: 0px; }
+      main section#about-me .socials li a:hover {
+        background: #006eff; }
   main section#about-me .skills {
     list-style: none;
     width: 100%;
