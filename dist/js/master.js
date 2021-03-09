@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     //scroll fixed header
     $document.scroll(function () {
-        if ($document.scrollTop() >= 50) {
+        if ($document.scrollTop() >= window.innerHeight) {
             // user scrolled 50 pixels or more;
             // do stuff
             $element.addClass(className);
