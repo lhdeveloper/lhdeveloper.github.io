@@ -7243,10 +7243,11 @@ header {
   position: fixed;
   width: 100%;
   top: 0px;
-  left: 0px; }
+  left: 0px;
+  z-index: 200; }
   header .navbar-nav .nav-item {
     text-transform: uppercase; }
-    header .navbar-nav .nav-item.active {
+    header .navbar-nav .nav-item.active .nav-link {
       color: #006eff; }
   header.fixed {
     background: #363636;
