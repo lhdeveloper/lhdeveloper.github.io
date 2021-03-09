@@ -7245,6 +7245,8 @@ header {
   top: 0px;
   left: 0px;
   z-index: 200; }
+  header .navbar-brand {
+    font-family: "Playfair Display SC", serif; }
   header .navbar-nav .nav-item {
     text-transform: uppercase; }
     header .navbar-nav .nav-item.active .nav-link {
