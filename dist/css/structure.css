@@ -7287,9 +7287,7 @@ main section {
       width: 100%;
       transform: translate(-50%, -50%); }
       main section#banner .text-banner h1 {
-        font-size: 3.5em; }
-      main section#banner .text-banner p {
-        font-size: 2em; }
+        font-size: 3em; }
   main section#about-me .skills {
     list-style: none;
     width: 100%;
