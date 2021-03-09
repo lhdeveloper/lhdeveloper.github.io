@@ -7274,3 +7274,19 @@ main section {
         font-size: 6em; }
       main section#banner .text-banner p {
         font-size: 2em; }
+  main section#about-me .skills {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-items: center; }
+    main section#about-me .skills li {
+      font-size: 2em;
+      width: 80px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px; }
+      main section#about-me .skills li i, main section#about-me .skills li svg {
+        color: #006eff; }
