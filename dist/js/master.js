@@ -12,6 +12,7 @@ $(document).ready(function(){
             // user scrolled 50 pixels or more;
             // do stuff
             $element.addClass(className);
+            $element.find('.navbar-dark').removeClass('bg-transparent')
         } else {
             $element.removeClass(className);
         }

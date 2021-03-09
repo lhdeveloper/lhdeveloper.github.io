@@ -7239,17 +7239,18 @@ body {
   margin: 0px;
   padding: 0px; }
 
-header .navbar-nav .nav-item {
-  text-transform: uppercase; }
-  header .navbar-nav .nav-item.active {
-    color: #006eff; }
-
-header.fixed {
+header {
   position: fixed;
   width: 100%;
   top: 0px;
-  left: 0px;
-  box-shadow: 1px 4px 3px 2px #ddd; }
+  left: 0px; }
+  header .navbar-nav .nav-item {
+    text-transform: uppercase; }
+    header .navbar-nav .nav-item.active {
+      color: #006eff; }
+  header.fixed {
+    background: #363636;
+    box-shadow: 3px 3px 10px 1px #dedede; }
 
 main section {
   padding: 4em 0; }
