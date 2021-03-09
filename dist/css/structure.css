@@ -7265,3 +7265,7 @@ main section#banner {
     z-index: 200;
     width: 100%;
     transform: translate(-50%, -50%); }
+    main section#banner .text-banner h1 {
+      font-size: 4em; }
+    main section#banner .text-banner p {
+      font-size: 2em; }
