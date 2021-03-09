@@ -7232,7 +7232,7 @@ hr {
   color: #FFF !important; }
 
 .space {
-  height: 2em;
+  height: 3em;
   display: block;
   width: 100%; }
 
@@ -7267,6 +7267,8 @@ header {
 main section {
   padding: 4em 0; }
   main section h2 {
+    margin-bottom: 1em; }
+  main section h3 {
     margin-bottom: 1em; }
   main section#banner {
     padding: 0px;
