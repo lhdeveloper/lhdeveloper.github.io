@@ -7231,6 +7231,11 @@ hr {
 .black a {
   color: #FFF !important; }
 
+.space {
+  height: 2em;
+  display: block;
+  width: 100%; }
+
 body {
   background: #f1f1f1;
   font-size: 16px;
