@@ -7283,7 +7283,7 @@ main section {
       height: 100%;
       object-fit: cover; }
     main section#banner:before {
-      content: '';
+      content: "";
       display: block;
       width: 100%;
       height: 100%;
@@ -7316,5 +7316,17 @@ main section {
       justify-content: center;
       background: #006eff;
       margin: 10px; }
-      main section#about-me .skills li i, main section#about-me .skills li svg {
+      main section#about-me .skills li i,
+      main section#about-me .skills li svg {
         color: white; }
+  main section#about-me .formacao li i,
+  main section#about-me .formacao li svg {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    font-size: 2em;
+    margin-right: 0.5em;
+    margin-top: 0.2em;
+    color: #006eff; }
