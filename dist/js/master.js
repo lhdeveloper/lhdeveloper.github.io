@@ -19,7 +19,7 @@ $(document).ready(function(){
     });
 
     //anchor
-    $('a[href*="#"]').bind('click', function(e) {
+    $('.navbar a[href*="#"]').bind('click', function(e) {
         e.preventDefault(); // prevent hard jump, the default behavior
 
         var target = $(this).attr("href"); // Set the target as variable
