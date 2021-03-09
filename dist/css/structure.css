@@ -7339,14 +7339,17 @@ main section {
         color: white; }
       main section#about-me .skills li:hover {
         background-color: rgba(0, 110, 255, 0.8); }
-  main section#about-me .formacao li i,
-  main section#about-me .formacao li svg {
-    height: 100%;
+  main section#about-me .formacao li {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    font-size: 2em;
-    margin-right: 0.5em;
-    margin-top: 0.2em;
-    color: #006eff; }
+    align-items: center; }
+    main section#about-me .formacao li i,
+    main section#about-me .formacao li svg {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: left;
+      font-size: 2em;
+      margin-right: 0.5em;
+      margin-top: 0.2em;
+      color: #006eff; }
