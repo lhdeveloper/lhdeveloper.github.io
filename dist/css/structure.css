@@ -7265,7 +7265,7 @@ header {
       color: #006eff; }
   header.fixed {
     background: #363636;
-    box-shadow: 3px 3px 10px 1px #dedede; }
+    box-shadow: 3px 3px 10px 1px #333; }
 
 main section {
   padding: 4em 0; }
