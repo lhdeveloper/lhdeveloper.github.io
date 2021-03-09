@@ -7209,7 +7209,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Playfair Display SC", serif; }
+  font-family: "Playfair Display SC", serif;
+  color: black !important; }
 
 h1 {
   font-size: 4em; }
@@ -7269,9 +7270,11 @@ header {
 main section {
   padding: 4em 0; }
   main section h2 {
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    font-family: 700; }
   main section h3 {
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    font-weight: 500; }
   main section#banner {
     padding: 0px;
     height: 100vh;
@@ -7299,8 +7302,6 @@ main section {
       z-index: 200;
       width: 100%;
       transform: translate(-50%, -50%); }
-      main section#banner .text-banner h1 {
-        font-size: 3em; }
   main section#about-me .skills {
     list-style: none;
     width: 100%;
