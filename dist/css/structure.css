@@ -7315,8 +7315,8 @@ main section {
       font-size: 2em;
       margin: 0.35em;
       padding: 0px; }
-      main section#about-me .socials li a:hover {
-        background: #006eff; }
+      main section#about-me .socials li a:hover i, main section#about-me .socials li a:hover svg {
+        color: #006eff; }
   main section#about-me .skills {
     list-style: none;
     width: 100%;
