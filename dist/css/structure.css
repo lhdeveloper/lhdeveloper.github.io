@@ -7232,7 +7232,7 @@ hr {
   color: #FFF !important; }
 
 body {
-  background: #f7f7f7;
+  background: #f1f1f1;
   font-size: 16px;
   font-family: "Roboto", serif;
   color: #363636;
@@ -7241,6 +7241,8 @@ body {
 
 main section {
   padding: 4em 0; }
+  main section h2 {
+    margin-bottom: 2em; }
   main section#banner {
     padding: 0px;
     height: 100vh;
