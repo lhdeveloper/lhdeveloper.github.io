@@ -7320,6 +7320,8 @@ main section {
       main section#about-me .skills li i,
       main section#about-me .skills li svg {
         color: white; }
+      main section#about-me .skills li:hover {
+        background-color: rgba(0, 110, 255, 0.8); }
   main section#about-me .formacao li i,
   main section#about-me .formacao li svg {
     height: 100%;
