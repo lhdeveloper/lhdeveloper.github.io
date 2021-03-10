@@ -7354,5 +7354,26 @@ main section {
     margin-top: 0.2em;
     color: #006eff; }
 
+main .slick-dots {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em; }
+  main .slick-dots li {
+    display: inline;
+    padding: 0 .5em; }
+    main .slick-dots li button {
+      border: none;
+      text-indent: -99999px;
+      width: 50px;
+      height: 8px;
+      background: #333; }
+      main .slick-dots li button:hover {
+        background: #006eff; }
+    main .slick-dots li.slick-active button {
+      background: #006eff; }
+
 footer {
   margin-top: 3em; }
