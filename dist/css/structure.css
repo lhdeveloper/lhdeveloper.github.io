@@ -7387,3 +7387,11 @@ main .slick-dots {
 
 footer {
   margin-top: 3em; }
+
+@media screen and (max-width: 996px) {
+  main section#banner .text-banner h1 {
+    font-size: 2.5em; }
+  main section .w-50 {
+    width: 100% !important; }
+  main section#about-me .skills li {
+    height: auto !important; } }
