@@ -57,6 +57,11 @@ $(document).ready(function(){
         $('.current-year').text(currentYear);
     }
 
+    //fechando o menu ao clicar em um item
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
+
     //menu active
     $(window).scroll(function() {
         var scrollDistance = $(window).scrollTop();
