@@ -23,3 +23,5 @@ Website / portfólio do desenvolvedor Luiz Costa.
 ## Others:
 ![Badge](https://img.shields.io/badge/GULP-black?style=for-the-badge&logo=gulp)
 ![Badge](https://img.shields.io/badge/BABEL-black?style=for-the-badge&logo=babel)
+
+``Desenvolvido por LHDEVELOPER``

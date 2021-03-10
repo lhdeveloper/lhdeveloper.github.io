@@ -7354,12 +7354,12 @@ main section {
     margin-right: 0.5em;
     margin-top: 0.2em;
     color: #006eff; }
-  main section#about-me .projetos .card {
+  main section#projects .projetos .card {
     border: none;
     box-shadow: 1px 3px 8px 1px #ddd; }
-    main section#about-me .projetos .card .card-title {
+    main section#projects .projetos .card .card-title {
       min-height: 50px; }
-    main section#about-me .projetos .card .card-body .button:visited {
+    main section#projects .projetos .card .card-body .button:visited {
       color: #fff !important; }
 
 main .slick-dots {
