@@ -7392,9 +7392,24 @@ footer {
   header .navbar-nav .nav-item .nav-link {
     font-size: 1em;
     padding: 1em; }
-  main section#banner .text-banner h1 {
-    font-size: 2.5em; }
-  main section .w-50 {
-    width: 100% !important; }
-  main section#about-me .skills li {
-    height: auto !important; } }
+  main section {
+    position: relative; }
+    main section#banner .text-banner h1 {
+      font-size: 2.5em; }
+    main section .w-50 {
+      width: 100% !important; }
+    main section#about-me .skills li {
+      height: auto !important; }
+    main section .buttons {
+      position: absolute;
+      top: 50%;
+      left: 0px;
+      width: 100%;
+      transform: translate(0%, -50%); }
+      main section .buttons button.slick-arrow {
+        position: absolute;
+        left: 0px; }
+      main section .buttons button.slick-arrow:last-child {
+        position: absolute;
+        right: 0px;
+        left: unset; } }
