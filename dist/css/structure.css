@@ -7401,6 +7401,8 @@ footer {
       width: 100% !important; }
     main section#about-me .skills li {
       height: auto !important; }
+    main section#projects .slick-track {
+      height: 320px; }
     main section .buttons {
       position: absolute;
       top: 50%;
