@@ -7360,7 +7360,7 @@ main section {
     main section#about-me .projetos .card .card-title {
       min-height: 50px; }
     main section#about-me .projetos .card .card-body .button:visited {
-      color: #fff; }
+      color: #fff !important; }
 
 main .slick-dots {
   list-style: none;
