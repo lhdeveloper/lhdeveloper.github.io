@@ -7317,7 +7317,8 @@ main section {
       font-size: 2em;
       margin: 0.35em;
       padding: 0px; }
-      main section#about-me .socials li a:hover i, main section#about-me .socials li a:hover svg {
+      main section#about-me .socials li a:hover i,
+      main section#about-me .socials li a:hover svg {
         color: #006eff; }
   main section#about-me .skills {
     list-style: none;
@@ -7353,10 +7354,13 @@ main section {
     margin-right: 0.5em;
     margin-top: 0.2em;
     color: #006eff; }
-  main section#about-me .projetos .card .card-title {
-    min-height: 50px; }
-  main section#about-me .projetos .card .card-body .button:visited {
-    color: #FFF; }
+  main section#about-me .projetos .card {
+    border: none;
+    box-shadow: 1px 3px 8px 1px #ddd; }
+    main section#about-me .projetos .card .card-title {
+      min-height: 50px; }
+    main section#about-me .projetos .card .card-body .button:visited {
+      color: #fff; }
 
 main .slick-dots {
   list-style: none;
@@ -7367,7 +7371,7 @@ main .slick-dots {
   margin-top: 3em; }
   main .slick-dots li {
     display: inline;
-    padding: 0 .5em; }
+    padding: 0 0.5em; }
     main .slick-dots li button {
       border: none;
       text-indent: -99999px;
