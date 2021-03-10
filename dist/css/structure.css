@@ -7389,6 +7389,9 @@ footer {
   margin-top: 3em; }
 
 @media screen and (max-width: 996px) {
+  header .navbar-nav .nav-item .nav-link {
+    font-size: 1em;
+    padding: 1em; }
   main section#banner .text-banner h1 {
     font-size: 2.5em; }
   main section .w-50 {
