@@ -7353,6 +7353,8 @@ main section {
     margin-right: 0.5em;
     margin-top: 0.2em;
     color: #006eff; }
+  main section#about-me .projetos .card .btn:visited {
+    color: #FFF; }
 
 main .slick-dots {
   list-style: none;
