@@ -7353,7 +7353,9 @@ main section {
     margin-right: 0.5em;
     margin-top: 0.2em;
     color: #006eff; }
-  main section#about-me .projetos .card .btn:visited {
+  main section#about-me .projetos .card .card-title {
+    min-height: 50px; }
+  main section#about-me .projetos .card .card-body .button:visited {
     color: #FFF; }
 
 main .slick-dots {
