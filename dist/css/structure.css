@@ -7272,6 +7272,7 @@ main section {
     font-family: 700; }
   main section h3 {
     margin-bottom: 1em;
+    font-size: 3em;
     font-weight: 500;
     position: relative; }
     main section h3:before {
@@ -7355,12 +7356,11 @@ main section {
     margin-top: 0.2em;
     color: #006eff; }
   main section#projects .slick-track {
-    height: 400px; }
+    height: 430px; }
   main section#projects .projetos .card {
     border: none;
-    box-shadow: 1px 3px 8px 1px #ddd; }
-    main section#projects .projetos .card .card-title {
-      min-height: 50px; }
+    box-shadow: 1px 3px 8px 1px #ddd;
+    min-height: 410px; }
     main section#projects .projetos .card .card-body .btn:visited {
       color: #fff !important; }
 
