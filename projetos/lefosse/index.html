@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js" integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css" integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./dist/css/style.css" rel="stylesheet" />
+    <title>Lefosse Comunica</title>
+</head>
+<body>
+    <header class="p-4">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="logo">
+                    <a href="#" title="Lefosse Comunica">
+                        <img src="/dist/images/logo.png" alt="Lefosse Comunica" />
+                    </a>
+                </div>
+                <div class="info-user">
+                    <div class="d-flex align-items-center">
+                        <img src="./dist/images/pic-user.png" class="" alt="" /> 
+                        <div class="dropdown">
+                            <button class="btn btn-transparent dropdown-toggle text-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Camila Luz
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Editar perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Configurações do Site</a></li>
+                                <li><a class="dropdown-item" href="#">Sair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="dolar-hours d-flex justify-content-between align-items-center position-relative">
+            <div class="horarios bg-cinza py-3 px-1 m-0 w-100">
+                <div class=""><strong>NEW YORK:</strong> <span id="dateNewYork"></span></div>
+                <div class=""><strong>BRASÍLIA:</strong> <span id="dateBrasilia"></span></div>
+                <div class=""><strong>TÓKIO:</strong> <span id="dateTokio"></span></div>
+                <div class=""><strong>LONDRES:</strong> <span id="dateLondres"></span></div>
+            </div>
+            <div class="dolar py-3 px-4 bg-cinza-claro d-flex w-25 position-absolute top-50 start-100 translate-middle">
+                <div>DOLAR: US$ 5,16 <a href="" title="Veja mais">Veja mais</a></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="d-flex justify-content-center search-home py-5 w-50 mx-auto">
+                <input type="text" placeholder="Busca" class="form-control rounded-pill bg-white" />
+            </div>
+
+            <div class="menu mb-5 d-flex justify-content-center">
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="container-fluid">
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Sócios</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Institucional
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Quem Somos</a></li>
+                              <li><a class="dropdown-item" href="#">Escritórios</a></li>
+                              <li><a class="dropdown-item" href="#">Organograma</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Recursos Humanos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Documentos</a></li>
+                              <li><a class="dropdown-item" href="#">Pendências</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Business Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Legal</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Políticas e Procedimentos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+
+            <div class="banners mb-5">
+                <div class="slick-slider">
+                    <div class="banner">
+                        <div class="picture">
+                            <img src="./dist/images/banners/banner01.jpeg" alt="" class="w-100" />
+                        </div>
+                        <div class="text-banner">
+                            <h2>Com a chegada de Luciana Prado</h2>
+                            <p>Lefosse reforça atuação em Seguros, Resseguros e Previdência Privada</p>
+                            <a href="#" title="Saiba mais">Saiba mais</a>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <div class="picture">
+                            <img src="./dist/images/banners/banner01.jpeg" alt="" class="w-100" />
+                        </div>
+                        <div class="text-banner">
+                            <h2>Luciana Prado</h2>
+                            <p>Resseguros e Previdência Privada</p>
+                            <a href="#" title="Saiba mais">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns row">
+                <div class="col-sm-8 contentbar">
+                    <div class="wp noticias-destaque bg-white mb-3">
+                        <div class="noticia-destaque">
+                            <img src="./dist/images/noticia-destaque.png" alt="Noticia destaque" class="w-100" />
+                        </div>
+                        <div class="row demais-noticias px-2 py-5">
+                            <div class="col-sm-4">
+                                <a href="" title=""><img src="./dist/images/noticia1.png" alt="" class="img-fluid mb-3" /></a>
+                                <a href="" title=""><h3 class="text-custom">Lorem ipsum dolor sit amet,consectetur adipscing elit.</h3></a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="" title=""><img src="./dist/images/noticia2.png" alt="" class="img-fluid mb-3" /></a>
+                                <a href="" title=""><h3 class="text-custom">Lorem ipsum dolor sit amet,consectetur adipscing elit.</h3></a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="" title=""><img src="./dist/images/noticia3.png" alt="" class="img-fluid mb-3" /></a>
+                                <a href="" title=""><h3 class="text-custom">Lorem ipsum dolor sit amet,consectetur adipscing elit.</h3></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wp bg-white demais-noticias mb-3 p-4">
+                        <ul class="list-noticias">
+                            <li><a href=""><span>1</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit consectur.</a></li>
+                            <li><a href=""><span>2</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit consectur.</a></li>
+                            <li><a href=""><span>3</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit consectur.</a></li>
+                        </ul>
+                        <a href="" class="text-custom ver-mais d-flex justify-content-end font-bold">Ver mais noticias</a>
+                    </div>
+
+
+                    <div class="wp bg-white mb-3">
+                        <div class="row p-4">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img src="./dist/images/img-valor.png" alt="" class="border border-dark w-100 h-100" />
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="text-bold text-custom">Lefosse na Mídia</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <a href="" class="ver-mais">Veja mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img src="./dist/images/img-newsletter.png" alt="" class="border border-dark w-100 h-100" />
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="text-bold text-custom">Boletíns e Newsletters</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <a href="" class="ver-mais">Veja mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wp bg-white mb-3">
+                        <img src="./dist/images/lefosse-cursos.png" alt="" class="w-100"/>
+                    </div>
+
+                    <div class="wp bg-white mb-3 p-4 position-relative">
+                        <h3 class="text-custom title-wp">Materiais Úteis</h3>
+                        <div class="materiais-uteis card-slide">
+                            <div class="item">
+                                <div class="img"></div>
+                                <p>Banco de imagens</p>
+                                <a href="" class="btn-without-bg">Acesse</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p>Templates de PPT</p>
+                                <a href="" class="btn-without-bg">Acesse</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p>Ícones</p>
+                                <a href="" class="btn-without-bg">Acesse</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p>Words</p>
+                                <a href="" class="btn-without-bg">Acesse</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p>Logotipos & brandbook</p>
+                                <a href="" class="btn-without-bg">Acesse</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p>Templates Excel</p>
+                                <a href="" class="btn-without-bg">Acesse</a>
+                            </div>
+                        </div>
+                        <div class="arrows">
+                            <button type="button" class="prev-arrow prev-arrow-materiais"><i class="fas fa-chevron-left"></i></button>
+                            <button type="button" class="next-arrow next-arrow-materiais"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sidebar">
+                    <h3 class="text-custom">Meus apps</h3>
+
+                    <div class="wp bg-white mb-3">
+                        <img src="./dist/images/meus-apps.png" alt="" class="w-100"/>
+                    </div>
+
+                    <div class="wp bg-white mb-3">
+                        <img src="./dist/images/lefosse-linkedin.png" alt="" class="w-100"/>
+                    </div>
+
+                    <div class="wp bg-wite mb-3">
+                        <img src="./dist/images/deals-announcements.png" alt="" class="w-100"/>
+                    </div>
+
+                    <div class="wp bg-white mb-3">
+                        <img src="./dist/images/eventos-feriados.png" alt="" class="w-100"/>
+                    </div>
+
+                    <div class="wp bg-white mb-3">
+                        <img src="./dist/images/tempo-de-casa.png" alt="" class="w-100"/>
+                    </div>
+
+                    <div class="wp bg-cinza-claro2 mb-3 p-3 position-relative">
+                        <h3 class="text-custom title-wp">Próximos aniversariantes</h3>
+                        <div class="proximos-aniversariantes card-slide">
+                            <div class="item">
+                                <div class="img"></div>
+                                <p class="mb-0">Rodrigo Junqueira</p>
+                                <i>Managing Partner</i>
+                                <span class="mb-3">23/08</span>
+                                <a href="" class="bg-custom">Parabenizar</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p class="mb-0">Rodrigo Junqueira</p>
+                                <i>Managing Partner</i>
+                                <span class="mb-3">23/08</span>
+                                <a href="" class="bg-custom">Parabenizar</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p class="mb-0">Rodrigo Junqueira</p>
+                                <i>Managing Partner</i>
+                                <span class="mb-3">23/08</span>
+                                <a href="" class="bg-custom">Parabenizar</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p class="mb-0">Rodrigo Junqueira</p>
+                                <i>Managing Partner</i>
+                                <span class="mb-3">23/08</span>
+                                <a href="" class="bg-custom">Parabenizar</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p class="mb-0">Rodrigo Junqueira</p>
+                                <i>Managing Partner</i>
+                                <span class="mb-3">23/08</span>
+                                <a href="" class="bg-custom">Parabenizar</a>
+                            </div>
+                            <div class="item">
+                                <div class="img"></div>
+                                <p class="mb-0">Rodrigo Junqueira</p>
+                                <i>Managing Partner</i>
+                                <span class="mb-3">23/08</span>
+                                <a href="" class="bg-custom">Parabenizar</a>
+                            </div>
+                        </div>
+                        <div class="arrows">
+                            <button type="button" class="prev-arrow prev-arrow-aniv"><i class="fas fa-chevron-left"></i></button>
+                            <button type="button" class="next-arrow next-arrow-aniv"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="p-2">
+        <div class="container d-flex justify-content-end">
+            <img src="./dist/images/logo-lefosse-footer.png" alt="" />
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            //slick banner
+            $('.slick-slider').slick({
+                slidesToShow:1,
+                slidesToScroll:1,
+                dots:true,
+                arrows:false,
+                speed:700,
+                autoplay: true,
+                autoSpeed: 1000,
+            })
+
+            // apendando da data de brasilia
+            moment.locale('pt-BR');
+            var dateBrasilia = moment.tz('America/Sao_Paulo').format('dddd, DD [de] MMMM [de] YYYY - HH[H]mm');
+            document.getElementById('dateBrasilia').append(dateBrasilia);
+
+            var dateNewYork = moment.tz('America/New_York').format('dddd, DD [de] MMMM [de] YYYY - HH[H]mm');
+            document.getElementById('dateNewYork').append(dateNewYork);
+
+            var dateTokio = moment.tz('Asia/Tokyo').format('dddd, DD [de] MMMM [de] YYYY - HH[H]mm');
+            document.getElementById('dateTokio').append(dateTokio);
+
+            var dateLondres = moment.tz('Europe/London').format('dddd, DD [de] MMMM [de] YYYY - HH[H]mm');
+            document.getElementById('dateLondres').append(dateLondres);
+
+            //slick horarios
+            $('.horarios').slick({
+                slidesToShow:3,
+                slidesToScroll:1,
+                dots:false,
+                arrows:false,
+                infinite: true,
+                speed: 9000,
+                autoplay: true,
+                autoplaySpeed: 0,
+                cssEase: 'linear',
+            })
+
+            //materiais uteis
+            $('.materiais-uteis').slick({
+                slidesToShow:5,
+                slidesToScroll: 1,
+                dots:false,
+                arrows:true,
+                intinite:true,
+                speed:700,
+                prevArrow: $('.prev-arrow-materiais'),
+                nextArrow: $('.next-arrow-materiais')
+            })
+
+            //proximos aniverariantes
+            $('.proximos-aniversariantes').slick({
+                slidesToShow:3,
+                slidesToScroll: 1,
+                dots:false,
+                arrows:true,
+                intinite:true,
+                speed:700,
+                prevArrow: $('.prev-arrow-aniv'),
+                nextArrow: $('.next-arrow-aniv')
+            })
+
+            
+        })
+    </script>
+</body>
+</html>
