@@ -7272,7 +7272,7 @@ main section {
     font-family: 700; }
   main section h3 {
     margin-bottom: 1em;
-    font-size: 3em;
+    font-size: 2.6em;
     font-weight: 500;
     position: relative; }
     main section h3:before {
@@ -7403,9 +7403,11 @@ footer {
     main section .w-50 {
       width: 100% !important; }
     main section#about-me .skills li {
-      height: auto !important; }
+      height: 100px !important; }
     main section#projects .slick-track {
-      height: 320px; }
+      height: 360px; }
+    main section#projects .projetos .card {
+      min-height: 320px; }
     main section .buttons {
       position: absolute;
       top: 50%;
